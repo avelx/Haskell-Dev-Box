@@ -17,3 +17,6 @@ calculate (Sub x y) = (calculate x) - (calculate y)
 
 newHead [] = error "empty list"
 newHead (x:xs) = x
+
+newTail [] = error "empty list"
+newTail (x:xs) = xs
